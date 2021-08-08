@@ -1,3 +1,6 @@
+
+/*      GENERALES    */
+
 *,*::after, *::before {
     margin: 0;
     padding: 0;
@@ -12,10 +15,74 @@ body {
     font-size: 1.6rem;
 
 }
+img {
+    width: 100%;
+}
+
+/*      CONTENIDO    */
 
 .contenedor {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
     font-family:'Raleway', sans-serif;;
+}
+.navegacion {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.icono {
+    flex: 2;
+}
+.icono img {
+    width: 10rem;
+}
+.lista {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+}
+.lista a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.imagen {
+    margin: 2rem;
+}
+
+.registro {
+    text-align: center;
+}
+
+.descripcion h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+.descripcion p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input input{
+    padding: 1rem;
+}
+
+.input a{
+    background-color: hsl(224, 93%, 58%);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
